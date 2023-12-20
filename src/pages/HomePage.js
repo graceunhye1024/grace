@@ -34,7 +34,7 @@ export default function HomePage() {
                 {/* Logo and navigation items */}
                 <a className="logo" href='/'><img src={memoji} alt='grace-icon'/></a>
                 <div className="nav-items">
-                    <a href="/">Home</a>
+                    <a href="/grace">Home</a>
                     <a href="/about">About</a>
                     <a href="/experiences">Experience</a>
                     <a href="/contact">Contact</a>
