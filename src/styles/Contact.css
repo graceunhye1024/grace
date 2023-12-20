@@ -1,0 +1,36 @@
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+ 
+.contact h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+.contact p {
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 1.6;
+}
+  
+.social-icons {
+    margin-bottom: 50px;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+}
+  
+.social-icons img {
+    width: 20px;
+    height: auto;
+}
+  
+footer {
+    font-size: 0.8em;
+    color: #464646;
+    background-color: #eaeaea;
+    padding: 2%;
+}
+  
