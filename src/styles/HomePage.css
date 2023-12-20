@@ -1,0 +1,140 @@
+.app {
+    text-align: center;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
+
+.nav-items a:hover {
+    font-style: italic;
+    color: #565656;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+}
+  
+.text-container {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+  
+.image-container {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* Initially hidden and positioned to the right */
+    transform: translateX(100%);
+    opacity: 0;
+    animation: slideInFromRight 0.5s ease-out forwards;
+    animation-delay: 2s; /* Adjust based on the duration of your typing effect */
+}
+  
+.introduction {
+    /* Initially hidden and positioned to the left */
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 0.5rem;
+}
+
+.logo  img {
+    width: 50px;
+    height: 50px;
+}
+
+.grace-ny {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 25px;
+}
+
+.slide-in-text {
+    /* Initially hidden and positioned to the left */
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container, .image-container {
+        text-align: center;
+        transform: none;
+        opacity: 1;
+        animation: none;
+    }
+
+    .nav-items a {
+        padding: 0.5rem;
+        margin: 0.25rem;
+    }
+
+    .resume-button {
+        font-size: small;
+    }
+
+    .social-icons a {
+        font-size: small;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    }
+
+    @keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+.slide-in-left {
+    animation: slideInFromLeft 2s forwards;
+}
+
+.slide-in-right {
+    animation: slideInFromRight 2s forwards;
+}
