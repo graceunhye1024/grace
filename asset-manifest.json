@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/grace/static/css/main.505723b9.css",
+    "main.js": "/grace/static/js/main.c2948258.js",
+    "static/js/787.1eed6ee6.chunk.js": "/grace/static/js/787.1eed6ee6.chunk.js",
+    "static/media/ny-grace.jpg": "/grace/static/media/ny-grace.5a93828265b1cc9cf1d6.jpg",
+    "static/media/grace-memoji.png": "/grace/static/media/grace-memoji.dffdda9b1dae701a72cc.png",
+    "static/media/github.svg": "/grace/static/media/github.f6d95138e22a600ea866c15758863fa0.svg",
+    "static/media/instagram.svg": "/grace/static/media/instagram.7e4dcd4adc259af12bb229cb7b7f6280.svg",
+    "index.html": "/grace/index.html",
+    "static/media/linkedin.svg": "/grace/static/media/linkedin.7bf9235006b4d74767ee9845073d74a7.svg",
+    "static/media/email.svg": "/grace/static/media/email.116187029bc917db83818283edf1eda9.svg",
+    "main.505723b9.css.map": "/grace/static/css/main.505723b9.css.map",
+    "main.c2948258.js.map": "/grace/static/js/main.c2948258.js.map",
+    "787.1eed6ee6.chunk.js.map": "/grace/static/js/787.1eed6ee6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.505723b9.css",
+    "static/js/main.c2948258.js"
+  ]
+}
